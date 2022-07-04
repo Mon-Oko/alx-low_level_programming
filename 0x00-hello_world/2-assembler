@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S <monday.c>  -o <monday.s>
+gcc $CFILE -S
