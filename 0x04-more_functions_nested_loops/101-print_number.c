@@ -18,12 +18,12 @@ void print_number(int n)
 	else
 		print_integer(n);
 }
-/**
- *  print_integer - A function to priting n
- *  @m: an input unsigned integer
- *  Return: Nothing
- */
 void print_integer(int m)
+/**
+ * print_integer - A function to print n
+ * @m: an input unsigned integer
+ * Return: Nothing
+ */
 {
 	int i = 1000000000;
 

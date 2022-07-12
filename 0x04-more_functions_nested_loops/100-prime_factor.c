@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- *  main - Entry point
- *  Return: Always 0
+ * main - Prints out the larget prime factor of 612852475143
+ * Return:return 0 with success.
  */
 int main(void)
 {
-	unsigned long int j = 3, k = 612852475143;
+	long i;
+	long num = 612852475143;
 
-	for (; j < 12057; j += 2)
+	for (i = 2; i < num; i++)
 	{
-		while (k % j == 0 && k != i)
-			k /= i;
+		if (num % i == 0)
+			num /= i;
+		printf("%li\n", num);
+		return (0);
 	}
-	printf("%lu\n", k);
-	return (0);
-}
