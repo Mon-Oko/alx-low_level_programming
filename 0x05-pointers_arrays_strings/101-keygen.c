@@ -1,4 +1,4 @@
-#import "main.h"
+#import "holberton.h"
 /**
  * main -> generates random valid passwords for the program 101-crackme.
  * Return: 0
