@@ -1,8 +1,8 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strncpy - a function that copys the strings.
- * @desk: para1
+ * _strncpy -> copys the strings.
+ * @dest: para1
  * @src: para2
  * @n: para3
  */
